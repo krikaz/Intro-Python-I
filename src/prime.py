@@ -21,10 +21,6 @@ def remove_multiples(arr, n, x):
 def eratosthenes(n):
   numbers = [m for m in range(2, n)]
   # print(numbers)
-  # numbers = remove_multiples(numbers, n, 2)
-  # print(numbers)
-  # numbers = remove_multiples(numbers, n, 3)
-  # print(numbers)
   for x in numbers:
     if x < math.sqrt(n):
       # print(x)
